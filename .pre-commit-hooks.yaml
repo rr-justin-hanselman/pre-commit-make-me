@@ -1,0 +1,5 @@
+-   id: make-me
+    name: 'test make command'
+    entry: make-me.sh
+    language: 'script'
+    description: "Runs `make <arg>`, requires make"
