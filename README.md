@@ -17,6 +17,7 @@ My pre-commit-config.yaml
     rev: 225a83f9d037054cc98eb6f6e3db33274124388c
     hooks:
     -   id: make-me
+        name: Generate Swagger
         args: [generate-swagger-docs]
 ```
 
