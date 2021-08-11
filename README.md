@@ -1,6 +1,6 @@
 # Make Pre-commit hook
 
-This is a simple hook that allows the user to specify a make command in there repo and let it run.
+This is a simple hook that allows the user to specify a make command in their repo and let it run.
 
 ## Example
 
@@ -21,4 +21,4 @@ My pre-commit-config.yaml
         args: [generate-swagger-docs]
 ```
 
-__IMPORTANT__: Like the above, this introduces the need to have additional binaries installed (like go-swagger).  I would recommend using this as a tool to enforce that your developers are aware of supplementary toolchain they should be using.  I.e. ff they're building the project and not aware they need go-swagger for doc generation, is that okay in your eyes?  It's up to you to determine what type of failure you want to enforce.  Hope it helps!
+__IMPORTANT__: Like the above, this introduces the need to have additional binaries installed (like go-swagger).  I would recommend using this as a tool to enforce that your developers are aware of supplementary toolchain they should be using.  I.e. if they're building the project and not aware they need go-swagger for doc generation, is that okay in your eyes?  It's up to you to determine what type of failure you want to enforce.  Hope it helps!
