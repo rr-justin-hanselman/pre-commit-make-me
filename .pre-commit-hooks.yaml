@@ -3,3 +3,4 @@
     entry: make-me.sh
     language: 'script'
     description: "Runs `make <arg>`, requires make"
+    pass_filenames: false
