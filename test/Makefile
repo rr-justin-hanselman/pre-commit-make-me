@@ -1,6 +1,12 @@
 # Dummies for testing
 failure:;
-	exit 1;
+	exit 0;
+
+something:;
+	exit 0;
+
+else: ;
+	exit 0;
 
 # Actual test command
 test:;
